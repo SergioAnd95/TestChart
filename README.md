@@ -8,5 +8,8 @@
 2. Установите зависимости: 
   pip3 install -r requirements.txt
 
-3. Запустите приложение:
+3. Выполните миграции для БД:
+  ./manage.py migrate
+  
+4. Запустите приложение:
   ./manage.py runserver
